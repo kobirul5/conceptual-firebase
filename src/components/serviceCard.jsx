@@ -17,7 +17,7 @@ const ServiceCard = ({ service }) => {
                 </div>
                 <p title={description}>{description.slice(0,100)}.......</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Checkout More</button>
+                    <button className="btn bg-cyan-300">Checkout More</button>
                 </div>
             </div>
         </div>
